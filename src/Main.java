@@ -13,7 +13,7 @@ public class Main {
             bonus = addendTwo / 100;
         }
 
-             int finalBalance = initialBalance + addendOne + addendTwo + bonus;
+        int finalBalance = initialBalance + addendOne + addendTwo + bonus;
         System.out.println("Итоговый баланс: " + finalBalance);
         System.out.println("Бонус: " + bonus);
     }
